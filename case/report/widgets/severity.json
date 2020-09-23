@@ -1,0 +1,21 @@
+[ {
+  "uid" : "e6dc0a96ebfd0b86",
+  "name" : "这是title",
+  "time" : {
+    "start" : 1600759281318,
+    "stop" : 1600759281318,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81024ba36e7ee6ac",
+  "name" : "这是title2",
+  "time" : {
+    "start" : 1600759281321,
+    "stop" : 1600759281323,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

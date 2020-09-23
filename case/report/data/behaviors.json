@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "这是feature功能描述",
+    "children" : [ {
+      "name" : "这是story",
+      "children" : [ {
+        "name" : "这是title",
+        "uid" : "e6dc0a96ebfd0b86",
+        "parentUid" : "68128608b23feef08d5d02d739b4a8af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600759281318,
+          "stop" : 1600759281318,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "这是title2",
+        "uid" : "81024ba36e7ee6ac",
+        "parentUid" : "68128608b23feef08d5d02d739b4a8af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600759281321,
+          "stop" : 1600759281323,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "68128608b23feef08d5d02d739b4a8af"
+    } ],
+    "uid" : "e402bc825488a694b8b411291deaa036"
+  } ]
+}

@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_denglu",
+    "children" : [ {
+      "name" : "Test登录",
+      "children" : [ {
+        "name" : "这是title",
+        "uid" : "e6dc0a96ebfd0b86",
+        "parentUid" : "e6cfa9298f117e792b5a20f292b2a39e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600759281318,
+          "stop" : 1600759281318,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "这是title2",
+        "uid" : "81024ba36e7ee6ac",
+        "parentUid" : "e6cfa9298f117e792b5a20f292b2a39e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600759281321,
+          "stop" : 1600759281323,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e6cfa9298f117e792b5a20f292b2a39e"
+    } ],
+    "uid" : "7ed2c24b3f869f9a5b6412abb774496d"
+  } ]
+}

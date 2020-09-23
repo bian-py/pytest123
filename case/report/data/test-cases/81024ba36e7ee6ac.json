@@ -1,0 +1,103 @@
+{
+  "uid" : "81024ba36e7ee6ac",
+  "name" : "这是title2",
+  "fullName" : "test_denglu.Test登录#test02",
+  "historyId" : "dbeb6e2e03b410cb07551e76940a807b",
+  "time" : {
+    "start" : 1600759281321,
+    "stop" : 1600759281323,
+    "duration" : 2
+  },
+  "description" : "这是description描述2",
+  "descriptionHtml" : "<p>这是description描述2</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 2 == 3\n  +2\n  -3",
+  "statusTrace" : "self = <test_denglu.Test登录 object at 0x0000029EB3879070>\n\n    @allure.story(\"这是story\")\n    @allure.description(\"这是description描述2\")\n    @allure.title(\"这是title2\")\n    def test02(self):\n        print('这是第一个测试用例')\n>       assert 2 == 3\nE       assert 2 == 3\nE         +2\nE         -3\n\ntest_denglu.py:21: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "这是story"
+  }, {
+    "name" : "feature",
+    "value" : "这是feature功能描述"
+  }, {
+    "name" : "suite",
+    "value" : "test_denglu"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test登录"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DGCGN8L"
+  }, {
+    "name" : "thread",
+    "value" : "15932-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_denglu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1bfd21abdc577fe3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == 3",
+      "time" : {
+        "start" : 1600686165874,
+        "stop" : 1600686165875,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "bea8f32134a5a561",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == 3",
+      "time" : {
+        "start" : 1600686019636,
+        "stop" : 1600686019637,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5dcb98cd438ddafb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == 3",
+      "time" : {
+        "start" : 1600685917968,
+        "stop" : 1600685917969,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a1bbb6d05095d05b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == 3",
+      "time" : {
+        "start" : 1600684528364,
+        "stop" : 1600684528364,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "81024ba36e7ee6ac.json",
+  "parameterValues" : [ ]
+}
